@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script src="PixelMatrix.js"></script>
+        <script src="PageManager.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css"> 
+
+        <script>
+
+            window.onload = () => {
+                const manager = new PageManager('shape', 'file', '0075ed', '5b5b5b');
+            };
+
+        </script>
+    </head>
+
+    <body>
+        <canvas 
+            id="shape" 
+            width="400" 
+            height="400"></canvas>
+        <input 
+            type="file"
+            id="file" 
+            name="file"
+            accept="image/png, image/jpeg" />
+    </body>
+</html>
